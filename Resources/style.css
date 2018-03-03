@@ -1,4 +1,20 @@
-html{
-
-
+.Header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Header p{
+  color: MediumAquamarine;
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+.navigation{
+  display: flex;
+  justify-content: flex-end;
 }
