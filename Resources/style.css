@@ -14,7 +14,3 @@ a:link{
 a:visited{
   color:black;
 }
-.navigation{
-  display: flex;
-  justify-content: flex-end;
-}
