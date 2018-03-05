@@ -2,8 +2,6 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
 }
 .Header p{
   color: MediumAquamarine;
@@ -13,4 +11,22 @@ a:link{
 }
 a:visited{
   color:black;
+}
+#flex{
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  height: 100px;
+  width: 80px;
+
+}
+.logo {
+  height: 125px;
+  width: 80px;
+}
+.space {
+  height: 125px;
+  width: 900px;
 }
