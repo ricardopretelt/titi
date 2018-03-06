@@ -16,17 +16,16 @@ a:visited{
   display: flex;
   align-items: center;
 }
-
-.item {
-  height: 100px;
-  width: 80px;
-
+nav span{
+  margin: 0 8px;
 }
-.logo {
-  height: 125px;
-  width: 80px;
+.left{
+  flex-grow: 1;
+  margin: 0 20px;
 }
-.space {
-  height: 125px;
-  width: 900px;
+.right{
+  flex-grow: 10;
+}
+.center{
+  flex-grow: 300;
 }
