@@ -2,6 +2,7 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: thin solid black;
 }
 .Header p{
   color: MediumAquamarine;
