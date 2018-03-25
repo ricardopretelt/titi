@@ -30,3 +30,17 @@ nav span{
 .center{
   flex-grow: 300;
 }
+.column.large {
+  width: 630px;
+  border: thin solid black;
+}
+
+.column.medium {
+  width: 300px;
+  border: thin solid black;
+}
+
+.column.small {
+  width: 240px;
+  border: thin solid black;
+}
