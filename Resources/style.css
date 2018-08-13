@@ -1,8 +1,13 @@
+/*For header*/
 .Header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: thin solid black;
+  background-color: white;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
 }
 .Header p{
   color: MediumAquamarine;
@@ -30,17 +35,34 @@ nav span{
 .center{
   flex-grow: 300;
 }
-.column.large {
-  width: 630px;
-  border: thin solid black;
+/*For main section*/
+.spacer {
+  max-width: 1200px;
+  margin: auto;
 }
-
-.column.medium {
+.cards {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.column {
+	display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.large{
+    width: 630px;
+    border-style: solid;
+    border-color: black;
+}
+.medium {
   width: 300px;
-  border: thin solid black;
+  border-style: solid;
+  border-color: black;
 }
-
-.column.small {
+.small {
   width: 240px;
-  border: thin solid black;
+  border-style: solid;
+  border-color: black;
 }
