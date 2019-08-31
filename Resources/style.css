@@ -1,13 +1,24 @@
 /*For header*/
+body{
+  padding: 0;
+  margin: 0;
+}
 .Header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: thin solid black;
+  /*border-bottom: thin solid black;*/
   background-color: white;
   padding: 5px;
   position: fixed;
   width: 100%;
+}
+#icon{
+  width: 50px;
+  height: 50px;
+}
+.parraf{
+  font-size: 20px;
 }
 .Header p{
   color: MediumAquamarine;
@@ -55,7 +66,8 @@ nav span{
     width: 630px;
 }
 .medium {
-  width: 300px;
+  width: 700px;
+  font-size: 100px;
 }
 .small {
   width: 240px;
@@ -65,30 +77,6 @@ nav span{
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
-  color: white;
-  display: flex;
-}
-.background2{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  display: flex;
-}
-.background3{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  display: flex;
-}
-.background4{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
   color: white;
   display: flex;
 }
