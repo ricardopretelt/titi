@@ -64,11 +64,13 @@ nav span{
 .medium {
   width: 700px;
   font-size: 100px;
+  font-family: 'Lato', sans-serif;
 }
 .medium2 {
   width: 700px;
   font-size: 100px;
   padding-top: 2cm;
+  font-family: 'Lato', sans-serif;
 }
 .medium3 {
   width: 600px;
@@ -81,6 +83,11 @@ nav span{
   height: 190px;
   padding-top: 1cm;
   padding-bottom: 2cm;
+}
+.medium5 {
+  font-size: 60px;
+  padding-top: 2cm;
+  padding-bottom: 3cm;
 }
 nav span {
   display: inline-block;
