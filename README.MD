@@ -9,8 +9,6 @@
 
 ## Description
 
-Titi is an app of citizen participation where people can be informed, audit and check the realization of public contracts in Colombia, to avoid corruption risks and report true cases.
-
 This project still on the early days but we are currently working on it. It is the result of the [hackfest](https://www.uninorte.edu.co/web/educacion-continuada/hackfest-contra-la-corrupcion) in an intense weekend and got the third price. For the event I coded the page but I got help from mentors to improve the design, also logos and icons were created by Isabella Jaimes.
 The original group and creators of the idea are:
 * Isabella Jaimes
